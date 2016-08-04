@@ -7,6 +7,8 @@ import java.util.Arrays;
 
 import org.junit.Test;
 
+/*@Author Ashutosh Pathak 
+ * @Version 1.0*/
 public class FindMissingNoTest {
 	ArrayList<Integer> list = new ArrayList<Integer>(Arrays.asList(2, 3, 4, 6,
 			8, 9, 10, 11, 12, 13, 14, 15, 18, 20, 21, 23, 24, 25));
@@ -14,7 +16,8 @@ public class FindMissingNoTest {
 	int b[] ={1,1,2,3,4,5,6,6};
     int c[] ={1,6};
     
-    /* testcase for find missing number using assertion */
+    /*
+     *  testcase for find missing number using assertion */
 	@Test
 	public void testFindMissingNumber() {
 		assertArrayEquals(a, new FindMissingNo().findMissingNumber(list));

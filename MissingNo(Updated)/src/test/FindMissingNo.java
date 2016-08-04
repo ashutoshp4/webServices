@@ -6,6 +6,8 @@ import java.util.Date;
 import java.util.HashSet;
 import java.util.List;
 
+/*@Author Ashutosh Pathak
+ * @Version 1.0 */
 public class FindMissingNo {
 	
 	/* public static void main(String[] args) { ArrayList<Integer> list = new
@@ -19,7 +21,8 @@ public class FindMissingNo {
 	
 	
 	 
-/* method to find missing number of given collection */ 
+/*
+ * method to find missing number of given collection */ 
 	
 	public int[] findMissingNumber(ArrayList<Integer> arrayList) {
 		ArrayList<Integer> set = new ArrayList<Integer>(arrayList);
